@@ -18,7 +18,7 @@ export default function EventItem(props){
 
     return (
         <li className={classes.item}>
-            <img src={'/' + image} alt={title} />
+            <Image src={'/' + image} alt={title} width={250} height={160}/>
             <div className={classes.content}>
                 <h2>{title}</h2>
                 <div className={classes.date}>
