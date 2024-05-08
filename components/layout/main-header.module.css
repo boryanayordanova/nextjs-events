@@ -1,5 +1,7 @@
 .header {
-    width: 100%;
+    width: auto;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
